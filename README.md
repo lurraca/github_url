@@ -21,7 +21,8 @@ Or install it yourself as:
 ## Usage
 
 ```GithubUrl.parse("https://github.com/lurraca/github_url")
-#=> #<GithubUrl::Parsed username="lurraca" repo="github_url" protocol="https">```
+#=> #<GithubUrl::Parsed username="lurraca" repo="github_url" protocol="https">
+```
 
 ## Contributing
 
