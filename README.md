@@ -1,6 +1,6 @@
 # GithubUrl
 
-TODO: Write a gem description
+Parse the username, repo and protocol from a github clone url. In Ruby.
 
 ## Installation
 
@@ -20,7 +20,8 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```GithubUrl.parse("https://github.com/lurraca/github_url")
+#=> #<GithubUrl::Parsed username="lurraca" repo="github_url" protocol="https">```
 
 ## Contributing
 
